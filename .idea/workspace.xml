@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3725acfc-744a-4312-9e88-3bffdb2bfdfd" name="Changes" comment="Implement Api routes, server actions and caching">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/event/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookEvent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookEvent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/logo.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="51" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="api-routes" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RenanParohinog4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RenanParohinog4/tech-hub.git",
+    "accountId": "cc63e90d-334f-4d3b-a27d-39deb7b8518b"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "RenanParohinog4",
+    "repository": "tech-hub"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/database/event.model.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000053" />
+      <entry key="S10" value="1.0000000727580096" />
+      <entry key="S30" value="1.004902362445888" />
+      <entry key="S60" value="1.1027499612330973" />
+      <entry key="M2" value="1.5303362976163453" />
+      <entry key="M5" value="2.518105780125501" />
+      <entry key="M10" value="3.5271592780972396" />
+      <entry key="M15" value="4.392141399088274" />
+      <entry key="M30" value="6.443462673036147" />
+      <entry key="H1" value="14.319689738497654" />
+      <entry key="H2" value="47.633338466349606" />
+      <entry key="H4" value="105.66711460530276" />
+      <entry key="D1" value="394.3132485970161" />
+      <entry key="W1" value="876.2024777479617" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="6.320630576031946E-216" />
+      <entry key="S10" value="2.51408642970602E-108" />
+      <entry key="S30" value="1.3597721616439959E-36" />
+      <entry key="S60" value="1.1721261133782566E-18" />
+      <entry key="M2" value="1.1891829841643786E-9" />
+      <entry key="M5" value="4.15898141367668E-4" />
+      <entry key="M10" value="0.033803208625094436" />
+      <entry key="M15" value="0.14936218414272284" />
+      <entry key="M30" value="0.6912562149093696" />
+      <entry key="H1" value="2.3571300393273167" />
+      <entry key="H2" value="8.006083604528214" />
+      <entry key="H4" value="17.506868656379996" />
+      <entry key="D1" value="57.329949650381266" />
+      <entry key="W1" value="119.18641154490726" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.8703149422460675E-11" />
+      <entry key="MS500" value="0.007790869151188043" />
+      <entry key="S2" value="0.297095776264233" />
+      <entry key="S5" value="0.6154015574747616" />
+      <entry key="S10" value="0.7844753895122347" />
+      <entry key="S30" value="0.926697499724106" />
+      <entry key="S60" value="1.059282089456941" />
+      <entry key="M2" value="1.5026780378608513" />
+      <entry key="M5" value="2.503376771165244" />
+      <entry key="M10" value="3.5517611406505583" />
+      <entry key="M15" value="4.53443437056095" />
+      <entry key="M30" value="7.1299382254938335" />
+      <entry key="H1" value="16.672350189002472" />
+      <entry key="H2" value="55.63304897864767" />
+      <entry key="H4" value="123.16719280407766" />
+      <entry key="D1" value="451.6392174649394" />
+      <entry key="W1" value="995.3876610494832" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FqF6KN3z7Y9R5tLnPTvI1YYef1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "posthog",
+    "git.auto.fetch.suggestion.counter": "1",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/DELL/WebstormProjects/techhub/public/icons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\DELL\\WebstormProjects\\techhub\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\WebstormProjects\techhub\public\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\WebstormProjects\techhub\app" />
+      <recent name="C:\Users\DELL\WebstormProjects\techhub" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3725acfc-744a-4312-9e88-3bffdb2bfdfd" name="Changes" comment="" />
+      <created>1782794515629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782794515629</updated>
+      <workItem from="1782794516670" duration="34664000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added database setup">
+      <option name="closed" value="true" />
+      <created>1782830210045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782830210045</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement Api routes, server actions and caching">
+      <option name="closed" value="true" />
+      <created>1782995460373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782995460373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added database setup" />
+    <MESSAGE value="Implement Api routes, server actions and caching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Api routes, server actions and caching" />
+  </component>
+</project>
